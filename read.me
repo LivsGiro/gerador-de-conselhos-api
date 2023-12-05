@@ -1,0 +1,59 @@
+Este é o TERCEIRO exercício de nível avançado (HTML e CSS) do curso de Desenvolvedor Web Full stack da Dev em Dobro.
+
+"Você está prestes fazer um exercício de HTML e CSS avançado para praticar o que aprendeu até aqui! Use os conhecimentos que aprendeu nos módulos de HTML e CSS pra resolvê-lo da melhor forma, leia atentamente a descrição de cada tarefa." - Dev em Dobro.
+
+Os materiais de apoio para a realização do projeto foram obtidos de um desafio do site frontendmentor:
+
+https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db
+
+Para organizar melhor o passo a passo da estruturação do código, usei um programa para a sepação visual das caixas:
+
+separacao-containers.png
+
+<head>
+A família da fonte foi obtida no Google Fonts (Manrope) em que se selecionou o peso 800 para uso, conforme indicado. O link para a fonte foi adicionado no HTML5, como indicado no próprio Google Fonts e definido o tipo de fonte do projeto no arquivo CSS3 de estilo.
+
+Além da fonte, também foram linkados os arquivos CSS3 e adicionado o título.
+</head>
+
+<body>
+
+No corpo do HTML5 foi criada a seção principal e em seguida uma div, estruturada por um título (h1), um parágrafo (p), uma tag para adicionar as imagens do projeto (picture) e uma tag para adicionar o botão de trocar o conselho (button).
+
+</body>
+
+//CSS3
+
+A partir das classes e tags do HTML, os arquivos CSS puderam caracterizar cada um.
+Foram criados três arquivos CSS: reset.css, style.css e variables.css.
+
+No reset retirou-se as características automáticas de margin, padding e adicinou-se um estilo para todo o body, com a fonte, o peso da fonte e a cor de fundo, características fixas na página.
+
+Cada elemento recebeu uma classe para ser estilizado no arquivo style.css, recebendo características de tamanho de fonte, cor de letra, espaçamento entre os elementos.
+
+Para o botão ficar posicionado na metade ao fim da caixa principal, na posição indicada no projeto, foram utilizados posicionamentos dos elementos. O elemento pai recebeu o estilo position: relative, e o elemento filho recebeu o position: absolute mais um top de 25px para que o botão ficasse posicionado no meio. 
+
+Foi utilizada a pseudo-classe hover para adicionar o efeito de sombreamento no botão de gerar conselhos.
+
+A responsividade dessa página foi obtida usando propriedades flex (display flex) juntamento com o box-sizing. Foi adicionada uma @mediaquery para até  768px de largura de página.
+
+//CSS
+
+Obs.: quando fiz o exercício sozinha, usei tags que não tinham tanto significado semântico para o HTML em comparação ao da resolução disponibilizada na plataforma da Dev em Dobro. Assim o meu código ficou com maior clareza do que havia feito anteriormente.
+
+Exemplo de como ficou a página em telas maiores:
+
+![Desktop](design/design-desktop.png)
+
+
+Exemplo de como ficou a página em telas menores:
+
+![Celular](design/design-mobile.png)
+
+Exemplo do efeito de sombreamento com o passar do mouse:
+
+![Sombreamento](design/design-efeito-sombra.png)
+
+O flex-box é uma ferramenta interessante para organizar os elementos na tela e deixá-los concisos (relacionados) entre si, o que facilita a responsividade da página mesmo sem o uso de media query ou alguma outra especificidade.
+
+Obrigada por acompanhar o início do meu trabalho. Lívia.

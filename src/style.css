@@ -1,0 +1,56 @@
+
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.advice{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 480px;
+    background-color: var(--neutral-medium);
+    border-radius: 15px;
+    margin: 20px;
+    width: 345px;
+    position: absolute;
+    }
+
+.advice-id{
+    color: var(--primary-neon);
+    font-size: 13px;
+    padding: 20px;
+    margin-top: 30px;
+    letter-spacing: 4px;
+}
+
+.descricao-advice{
+    color: var(--primary-light);
+    text-align: center;
+    font-size: 23px;
+    padding: 23px;
+}
+
+.divisor{
+    max-width: 100%;
+}
+
+.trocar-conselho{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--primary-neon);
+    position: relative;
+    top: 25px;
+    }
+
+    .trocar-conselho:hover{
+        color: #53ffab;
+        cursor: pointer;
+        box-shadow: 0 5px 15px var(--primary-neon);
+    }
+
